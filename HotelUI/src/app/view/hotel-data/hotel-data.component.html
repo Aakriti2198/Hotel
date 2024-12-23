@@ -1,0 +1,91 @@
+<header>
+    <h2 class="page-heading">Hotel List</h2>
+  </header>
+  <hr style="border: 1px solid black; margin-top: 10px;">
+  <br>
+ <div class="card">
+    <p-table [value]="hotelData" dataKey="id" #pt1  [expandedRowKeys]="expandedRows" >
+
+        <ng-template #header>
+            <tr>
+                <th style="width: 10rem"></th>
+                <th style="width: 5rem">#</th>
+                <th >Hotel Name </th>
+                <th>Location</th>
+                <th >Rating </th>
+                <th >Image </th>
+                <th >Board Basis </th>
+            </tr>
+        </ng-template>
+        <ng-template #body let-hotel let-expanded="expanded">
+            <tr>
+                <td>
+                    <p-button type="button" label="View" (click)="goToDetails(hotel)" />
+                </td>
+                <td>
+                    <p-button type="button" pRipple [pRowToggler]="hotel" label="Info" ></p-button>
+                </td>
+                <td>{{ hotel.name }}</td>
+                <td>{{ hotel.location  }}</td>
+                <td>{{ hotel.rating }}</td>
+                <td><img [src]="hotel.image" [alt]="hotel.name" width="50" class="shadow-lg" /></td>
+                <td>{{ hotel.boardBasis }}</td>
+
+
+            </tr>
+        </ng-template>
+        <ng-template #expandedrow let-hotel>
+            <tr>
+                <td colspan="7">
+                    <div class="p-4">
+                        <h5>Rooms for {{ hotel.name }}</h5>
+                        <p-table [value]="hotel.rooms" >
+                            <ng-template #header>
+                                <tr>
+                                  <th>Room Type </th>
+                                    <th >Amount </th>
+                                </tr>
+                            </ng-template>
+                            <ng-template #body let-room>
+                                <tr>
+                                    <td>{{ room.roomType }}</td>
+                                    <td>{{ room.amount }}</td>
+                                </tr>
+                            </ng-template>
+                            <ng-template #emptymessage>
+                                <tr>
+                                    <td colspan="6">There are no Rooms Available</td>
+                                </tr>
+                            </ng-template>
+                        </p-table>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="7">
+                    <div class="p-4">
+                        <h5>Dates for travel {{ hotel.name }}</h5>
+                        <p-table [value]="hotel.datesOfTravel" >
+                            <ng-template #header>
+                                <tr>
+                                  <th>Travel Dates </th>
+                                </tr>
+                            </ng-template>
+                            <ng-template #body let-date>
+                                <tr>
+                                    <td>{{ date }}</td>
+                                </tr>
+                            </ng-template>
+                            <ng-template #emptymessage>
+                                <tr>
+                                    <td colspan="6">There are no Travel Dates</td>
+                                </tr>
+                            </ng-template>
+                        </p-table>
+                    </div>
+                </td>
+            </tr>
+        </ng-template>
+
+    </p-table>
+</div>

@@ -1,0 +1,38 @@
+<header>
+    <h2 class="page-heading">Hotel Details</h2>
+  </header>
+  <hr style="border: 1px solid black; margin-top: 10px;align-items: center;">
+  <br>
+  <p-card [style]="{ width: '55rem', overflow: 'hidden' }">
+    <ng-template #header>
+        <img class="w-full" src="{{SHotelData.imageUrl}}" />
+    </ng-template>
+    <ng-template #title> Hotel Name: {{SHotelData.name}} </ng-template>
+    <ng-template #subtitle>Location: {{SHotelData.location}} </ng-template>
+    <p>
+        <strong>Rating:{{ SHotelData.rating }} </strong> </p>
+        <p><strong>Dates of Travel:</strong></p>
+        <ul>
+          <li *ngFor="let date of SHotelData.datesOfTravel">{{ date }}</li>
+        </ul>
+ 
+    <p><strong>Board Basis:</strong> {{SHotelData.boardBasis }}
+    </p>
+    <ng-template #footer>
+        <h3>Available Rooms</h3>
+        <p-table [value]="SHotelData.rooms">
+          <ng-template pTemplate="header">
+            <tr>
+              <th>Room Type</th>
+              <th>Amount Available</th>
+            </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-room>
+            <tr>
+              <td>{{ room.roomType }}</td>
+              <td>{{ room.amount }}</td>
+            </tr>
+          </ng-template>
+        </p-table>
+    </ng-template>
+</p-card>

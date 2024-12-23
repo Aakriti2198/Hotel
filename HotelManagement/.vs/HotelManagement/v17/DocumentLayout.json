@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|c:\\users\\aakriti tiwari\\onedrive\\desktop\\new folder\\hotelmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|c:\\users\\aakriti tiwari\\onedrive\\desktop\\new folder\\hotelmanagement\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|solutionrelative:controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|c:\\users\\aakriti tiwari\\onedrive\\desktop\\new folder\\hotelmanagement\\services\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|solutionrelative:services\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|c:\\users\\aakriti tiwari\\onedrive\\desktop\\new folder\\hotelmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|c:\\users\\aakriti tiwari\\onedrive\\desktop\\new folder\\hotelmanagement\\response\\hotelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|solutionrelative:response\\hotelresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|c:\\users\\aakriti tiwari\\onedrive\\desktop\\new folder\\hotelmanagement\\interface\\ihotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E208664B-0DF7-4085-9705-ECE030B2D210}|HotelManagement.csproj|solutionrelative:interface\\ihotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAACUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:59:27.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:58:39.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Services\\Hotel.cs",
+              "RelativeDocumentMoniker": "Services\\Hotel.cs",
+              "ToolTip": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Services\\Hotel.cs",
+              "RelativeToolTip": "Services\\Hotel.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAuwOAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:29:17.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IHotel.cs",
+              "DocumentMoniker": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Interface\\IHotel.cs",
+              "RelativeDocumentMoniker": "Interface\\IHotel.cs",
+              "ToolTip": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Interface\\IHotel.cs",
+              "RelativeToolTip": "Interface\\IHotel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAgwAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:14:59.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotelResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Response\\HotelResponse.cs",
+              "RelativeDocumentMoniker": "Response\\HotelResponse.cs",
+              "ToolTip": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Response\\HotelResponse.cs",
+              "RelativeToolTip": "Response\\HotelResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:15:27.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HotelController.cs",
+              "ToolTip": "C:\\Users\\Aakriti Tiwari\\OneDrive\\Desktop\\New folder\\HotelManagement\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "Controllers\\HotelController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAjwD8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T22:03:49.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
